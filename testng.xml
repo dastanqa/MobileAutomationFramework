@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="com.dastancompany.listeners.ListenersClass"></listener>
+    </listeners>
+    <test parallel="methods" thread-count="2" name="C:/Users/Ideapad 5/IdeaProjects/MobileAutomationFramework">
+        <classes>
+            <class name="com.dastancompany.testcases.TapTests">
+                <methods>
+                    <include name="tapTests"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
